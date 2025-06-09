@@ -82,7 +82,8 @@ This script connects to the Readwise API, fetches new highlights, identifies dic
     From your project directory (`readwise-anki-sync`), you can run the script using `uv run`:
     ```bash
     uv run main.py
-    ```uv` will automatically use the project's virtual environment (created by `uv sync`) to run the script. You do not need to manually activate the virtual environment (e.g., `source .venv/bin/activate`).
+    ```
+    `uv` will automatically use the project's virtual environment (created by `uv sync`) to run the script. You do not need to manually activate the virtual environment (e.g., `source .venv/bin/activate`).
 
     You should see log output in the terminal indicating the script's progress.
 
